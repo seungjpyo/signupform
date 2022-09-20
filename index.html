@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice Sign Up Form</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Combo&display=swap" rel="stylesheet">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <div class="left">
+        <div class="banner">
+            <img class="logo" src="./man-g2020a0653_640.png" alt="logo">
+            <div class="logoText">Cucina Italiano</div>
+        </div>
+        <div class="img"></div>
+    </div>
+    <div class="right">
+        <header>
+            <p class="header1">This is not a real restaurant!</p>
+            <p class="header2">Sign up today for a free drink next time you visit!<br>We also provide you optional weekly newsletters with delicious recipes!</p>
+        </header>
+        <main>
+            <form action="#">
+                <label>First Name
+                    <input type="text">
+                </label>
+                <label>Last Name
+                    <input type="text">
+                </label>
+                <label>email Address(<span style='color: red'>*</span>)
+                    <input type="email" required>
+                </label>
+                <label>Zip Code(<span style='color: red'>*</span>)
+                    <input type="text" required pattern="(\d{5}([\-]\d{4})?)" title="Must be a 5 digit or 5-4 digit numeric zip code">
+                </label>
+                <label>Password(<span style='color: red'>*</span>)
+                    <input type="password" required pattern="^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?!.*\s).*$" title="Must include at least one upper case letter, one lower case letter, and a number">
+                </label>
+                <label>Confirm Password(<span style='color: red'>*</span>)
+                    <input type="password" required>
+                </label>
+                <div>
+                    <input type="checkbox" id="checkbox">
+                    <label for="checkbox">Sign up for our weekly newsletter!</label>
+                </div>
+                <button>Submit</button>
+
+
+
+
+
+            </form>
+        </main>
+        <footer>
+            <p class="footer">Created by Seung 2022</p>
+        </footer>
+    </div>
+</body>
+
+</html>

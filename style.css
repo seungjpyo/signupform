@@ -1,0 +1,114 @@
+body {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    font-family: 'Combo', cursive;
+    text-align: center;
+    color: white;
+    line-height: 1.5;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+/* left side of the page */
+.left {
+    width: 40vw;
+}
+
+.banner {
+    height: 20vh;
+    width: 36vw;
+    background-color: rgb(0, 29, 50);
+    display: flex;
+    align-items: center;
+    gap: 2vw;
+    padding: 0 2vw;
+
+}
+
+.logo {
+    height: 10vh;
+    width: 10vh;
+}
+
+.logoText {
+    font-size: 2.5rem;
+}
+
+.img {
+    height: 80vh;
+    width: 40vw;
+    background-image: url(./bruna-branco-t8hTmte4O_g-unsplash.jpg);
+    background-size: cover;
+}
+
+
+
+/* right side of the page */
+.right {
+    width: 60vw;
+    background-color: rgb(0, 48, 82);
+}
+
+header {
+    height: 25vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 3vh;
+}
+
+.header1 {
+    font-size: 1.8rem;
+}
+
+.header2 {
+    font-size: 1.3rem;
+}
+
+main {
+    height: 60vh;
+    background-color: rgb(0, 29, 50);
+    padding: 5vh 0;
+}
+
+form {
+    width: 54vw;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem 5rem;
+    padding-left: 6vw;
+
+}
+
+label {
+    /* position: relative; */
+    width: 11rem;
+}
+
+[type='text'], [type='password'], [type='email'] {
+    width: 11rem;
+}
+
+[type='checkbox'] {
+    accent-color: red;
+}
+
+button {
+    margin-top: 5rem;
+    width: 8rem;
+    height: 4rem;
+}
+
+footer {
+    height: 5vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
